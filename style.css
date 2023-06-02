@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  
+}
+
+.navbar-custom {
+  background-image: linear-gradient(to right, #49494b, #777377)
+}
+
+.custom-toggler {
+  color: #49494b;
+  background-color: #747074;
+  border-color: #747074;
+}
+
+.custom-icon {
+  background-image: url(imagens/opcoesLIGHT.png);
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.nav-item-custom {
+  color: #fff;
+  font-family: 'Mulish', sans-serif;
+  font-stretch: ultra-condensed;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.nav-item-custom:hover {
+  color: #6e6e71;
+}
+
+body{
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-with-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-with-icon h1 {
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 35px;
+  padding-top: 50px;
+  color: #727377;
+}
+
+.title-margin {
+  margin-right: 10px;
+}
+
+.icon-margin {
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.services-custom {
+  font-family: 'Kanit', sans-serif;
+  color: #727377;
+}
+
+.service-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  float: left;
+  width: calc(50% - 50px);
+  margin-right: 50px;
+  clear: none;
+  margin-top: 80px;
+  padding-bottom: 70px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.services-icon {
+  margin-left: 10px;
+}
+
+.footer-custom {
+  clear: both;
+  width: 100%;
+  background-color: #49494b;
+  padding: 20px 0;
+}
+
+.container {
+  position: relative;
+  min-width: 100%;
+  justify-content: left;
+}
+
+.img-custom {
+  display: flex;
+  align-items: left;
+}
+
+.text-custom {
+  color: white;
+  font-family: 'Mulish', sans-serif;
+}
+
+.text-custom:hover {
+  color: #49494b;
+}
+
+.text-custom2 {
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.title-custom {
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 35px;
+  color: #727377;
+  padding-top: 50px;
+}
+
+.card-custom {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.local {
+  align-items: center;
+  justify-content: center;
+  display: flexbox;
+  padding-bottom: 15px;
+}
+
+.local p {
+  text-align: center;
+  color: black;
+  font-family: 'kanit', sans-serif;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.title {
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  color: #49494b;
+}
+.text-custom4{
+  font-family: 'Fira sans', sans-serif;
+  color:#737777;
+}
+.sem-bolinha{
+  list-style-type: none;
+}
+.contato{
+  display: inline;
+}
+.custom-container{
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  justify-content: center;
+}
+.contato-img{
+  display: flex;
+  gap: 20px;
+}
